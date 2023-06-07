@@ -1,0 +1,149 @@
+.bye_sec_all_css {
+  /* margin-left: 28%;
+  margin-right: 28%; */
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+
+  text-align: left;
+}
+.Buy_css {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: system-ui;
+  padding-bottom: 10%;
+}
+
+.types {
+  font-size: medium;
+  width: 100%;
+}
+.accordion-button {
+  margin-left: auto;
+}
+.buy_section_page .accordion-button,
+.buy_section_page .accordion-button:not(.collapsed) {
+  margin-bottom: 20px;
+  background-color: gainsboro;
+  transform: unset;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+/* try */
+.buy_section_page .accordion-button:not(.collapsed)::before {
+  background-image: none;
+  content: "-";
+  transform: unset;
+  /* margin-right: 0.5rem; */
+  order: 1;
+}
+
+.buy_section_page .accordion-button.collapsed::before {
+  background-image: none;
+  content: "+";
+  /* margin-right: 0.5rem; */
+  order: 1;
+}
+
+.buy_section_page .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  display: none;
+}
+
+.buy_section_page .accordion-button.collapsed::after {
+  background-image: none;
+  display: none;
+}
+
+
+.ttp {
+  /* font-family: serif; */
+  font-size: large;
+  font-weight: bolder;
+  color: black;
+}
+.ttp :not(.collapsed) {
+  color: black;
+}
+.nkey .accordion-item {
+  border: 0px;
+}
+.tps {
+  margin-left: 10px;
+}
+.bye_sec_all_css .accordion-button-icon {
+  margin-left: 10px;
+}
+@media (max-width: 800px) {
+  .bye_sec_all_css {
+    width: 80%;
+  }
+}
+
+footer.site-footer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-image: url(https://cdn.shopify.com/s/files/1/0761/0246/7860/files/footer-image.webp?v=1684318954#);
+  background-size: cover;
+  background-position: top;
+  background-repeat: repeat;
+}
+
+slideshow-component:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 203px;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  z-index: 2;
+  background-image: url(//cdn.shopify.com/s/files/1/0423/8304/8864/files/curve-bg.png?v=1621059895&width=2500);
+  background-size: cover;
+  background-position: top;
+  background-repeat: repeat;
+}
+
+
+
+.aas{
+content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-image: url(https://cdn.shopify.com/s/files/1/0761/0246/7860/files/footer-image_430x.webp?v=1684318954#);
+  background-size: cover;
+  background-position: top;
+  background-repeat: repeat;
+}
+
+.home-slideshow-section:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 203px;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    z-index: 2;
+    background-image: url(//cdn.shopify.com/s/files/1/0423/8304/8864/files/curve-bg.png?v=1621059895&width=2500);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+}
